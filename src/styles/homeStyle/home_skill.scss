@@ -1,0 +1,232 @@
+$Background:#b7ab98;
+$Text: rgb(255, 255, 255);
+$Primary_Button: #1ac9ff;
+$Secondary_Button: #504ee4;
+$Accent: #f0286e;
+$spice: #ff3636;
+
+$Primary_Button_c:#edb74a;
+
+.skill_container {
+  scroll-snap-align: start;
+  scroll-margin: 5vh;
+  height: 100vh;
+  width: 100%;
+  background-color: $Secondary_Button;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.skill_tech {
+  height: 100%;
+  width: 45%;
+  background-color: black;
+}
+.skill_proj{
+  height: 100%;
+  width: 45%;
+  background-color: black;
+}
+
+.skill_nav {
+  height: 100%;
+  width: 10%;
+  background-image: linear-gradient(318deg,#131318,#1c1d1f);
+  color: $spice ;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+// ------------------- 3 main div ends here ------------------------------------------------------------------------------
+.nav_center_ty {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  margin-top: 30px;
+  font-size: 80px;
+  height: 15%;
+  width: 100%;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.nav_center_ty:nth-child(1):hover{
+  background-color: #131318;
+  transition: ease .5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200%;
+  border-radius: 10%;
+}
+.before,
+.after {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: ease 0.4s;
+}
+
+.nav_center_ty:hover > .before,
+.nav_center_ty:hover > .after {
+  display: block;
+  font-size: 80px;
+  // background-color: aliceblue;
+}
+
+.skill_name {
+  // background-color: #1ac9ff;
+  color: white;
+  height: 70%;
+  width: 100%;
+  transition: ease-in 1s;
+
+  display: none;
+}
+.skill_content_tech{
+    height: 100%;
+    width: 100%;
+    
+    font-size: 3rem;
+//     display: flex;
+//     justify-content: space-evenly;
+//     align-items: center;
+//     flex-direction: column;
+}
+// dispaly block content of skills aur projecst mai bi
+.skill_tech_h1 {
+  // background-color: $Primary_Button_c;
+  padding: 5%;
+  font-size: 4rem;
+  // color: $Accent;
+  color: $spice;
+  font-family: 'Josefin Sans', sans-serif;
+  
+}
+ul{
+  list-style: none;
+}
+li:nth-child(1){
+  font-size: 4rem;
+  
+}
+li{
+  background-color: inherit;
+  padding: 2%;
+}
+
+
+
+.projectview {
+  height: 70%;
+  width: 100%;
+  // background-color: aliceblue;
+  display: none;
+  
+}
+.skill_proj_h1 {
+  // background-color: $Primary_Button_c;
+  padding: 5%;
+  font-size: 4rem;
+  // color: $Accent;
+  color: $spice;
+  
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.skill_content {
+  
+  // background-color: rgb(236, 196, 145);
+  height: 90%;
+  
+  display: grid;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 50% 50%;
+  gap: 7px ;
+  
+
+  .pro_show {
+    color: white;
+    // background-color: rgba(133, 196, 255, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    
+  }
+
+  .pro_show,.pro_one{
+    background-image: url(../../../public/images/Dolama.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    // object-fit: cover;
+    background-position: bottom;
+  }
+  .pro_two{
+    background-image: url(../../../public/images/Daree.png);
+  }
+  .pro_three{
+    background-image: url(../../../public/images/Daree.png);
+  }
+  .pro_four{
+    background-image: url(../../../public/images/first.png);
+  }
+}
+
+.main{
+    
+  // height: 80%;
+  // width: 60%;
+  background-color: aliceblue; 
+
+  position: relative;
+}
+.img{
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  // background-color: #1ac9ff;
+  position: absolute;
+  animation: retret 2 ease-in 2s infinite  ;
+}
+
+@keyframes retret {
+  
+}
+
+img{
+  height: 100%;
+  // background-image: url("../img/first.png");
+  
+}
+
+.text{
+  overflow: hidden;
+
+  width: 400px;
+  height: 100px;
+  background: rgb(122, 15, 228); 
+  z-index: 2;
+  position: absolute;
+  bottom: -30%;
+  left: 30%;
+
+}
+.text h1{
+  top: 100px;
+  position: absolute;
+  font-size: 4rem;
+}
+
+
+

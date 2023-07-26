@@ -1,0 +1,81 @@
+{
+    "name": "Suman",
+    "skills": {
+        "Expertise": [
+            "The two fields are:",
+            "web development",
+            "video editing"
+        ],
+        "Design": [
+            "Figma",
+            "adobe illustator",
+            "adobe photoshop"
+        ],
+        "Web": [
+            "React",
+            "Scss",
+            "php",
+            "MySqli",
+            "DBMS",
+            "html",
+            "css",
+            "js"
+        ],
+        "App": [
+            "Java",
+            "XML",
+            "Sqlite",
+            "android studio"
+        ],
+        "Other": [
+            "Python",
+            "AI/ML (not experienced)",
+            "C++",
+            "py automation",
+            "youtube"
+        ]
+    },
+    "project": {
+        "Expertise": [
+            "web development",
+            "video editing",
+            "help"
+        ],
+        "Design": [
+            "adobe primear pro",
+            "after effercts"
+        ],
+        "Web": [
+            "html",
+            "css"
+        ],
+        "App": [
+            "andoid",
+            "asdasd"
+        ],
+        "Other": [
+            "python",
+            "youtube"
+        ]
+    },
+    "pict": {
+        "id": 1,
+        "caption": "icon 1",
+        "icon": "asd"
+    },
+    "cv": {
+        "Heading":["Myself SUMAN","heading of skills","heading of project","heading of Education"],
+        "tag": [
+            " i am what happen when you tries to break some rules to go beyound.I am a software developer who loves to code and build things,but i am always fasinated by internet beauty, the ways it grab out attention and makes us wait.So i am a self taught graphic designer with professnally taught Software development skills. Helping People to make their project ideas into reality ",
+            "My skills Contains of :- ",
+            
+            ["web devlopment","App development","Video editing","web designing"],
+            " project = I am various projects in differnt domain but some of my best projects were web dev app dev graphic design and logo design",
+            "  <h2>I am not so good in academics</h2><h2>Secondary education 8-10 </h2>Guru Teg bahadur Public School 2016 - 2018<h3>higher secondary 10-12 </h3>Ramdani Bagt Public College 2018 - 2020<h3>Graduation</h3>Durgapur Society of Management Science 2020- 2023 "
+        ],
+
+
+        "Skills_head":"Heasing of skills"
+
+        }
+    }

@@ -1,0 +1,79 @@
+$Background: rgb(0, 0, 0);
+$Text: rgb(255, 255, 255);
+$Primary_Button: #1ac9ff;
+$Secondary_Button: #504ee4;
+$Accent: #f0286e;
+
+@font-face {
+  font-family: myFont;
+  src: url(styles/fonts/Regular/forfree.ttf);
+}
+
+* {
+  user-select: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  
+}
+
+.bd {
+  scroll-behavior: smooth;
+  
+  
+  background-color: $Background;
+  
+  
+}
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  // z-index: 5;
+}
+html {
+  scroll-snap-type: y proximity;
+}
+html::-webkit-scrollbar {
+  //for chrome,safari,opera
+  display: none;
+}
+html::-webkit-scrollbar {
+  //for firefox
+  scrollbar-width: none;
+}
+html::-webkit-scrollbar {
+  //for edge
+  -ms-overflow-style: none;
+}
+
+
+.cursor{
+  height: 3rem;
+  width: 3rem;
+  // border: 2px solid;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  transform-origin: 100% 100%;
+  pointer-events: none;
+  z-index: 1;
+  transition: all 0.3s ease;
+  transition-property: background,transform;
+
+}
+
+
+
+.grow{
+  
+  transform: scale(2);
+  background: black;
+}
+.large {
+  transform: scale(7);
+}
+
+
+// a{
+//   z-index: 3;
+// }

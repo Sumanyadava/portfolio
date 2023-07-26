@@ -1,0 +1,121 @@
+.main {
+  height: 100vh;
+  background-color: rgb(0, 0, 0);
+}
+.content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  // margin-top: 5vh;
+  // background-color: aliceblue;
+}
+
+.ser_heading {
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  transform: translate(-50%);
+  text-align: center;
+}
+
+.ser_card {
+  height: 60%;
+  width: 30%;
+  background-color: rgb(27, 27, 26);
+  position: relative;
+
+  // overflow-y: scroll;
+}
+.front {
+  background-color: #2e313a;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 700ms ease;
+  font-size: 3rem;
+}
+.ser_card:hover > .front {
+  opacity: 0;
+  z-index: 1;
+}
+.back {
+  position: absolute;
+  top: 0;
+  z-index: 2;
+}
+
+.ser_card::after {
+  background: linear-gradient(transparent, rgb(52, 18, 247), transparent);
+  /* background-color: rgb(71, 156, 230); */
+  height: 70%;
+  width: 1%;
+  position: absolute;
+  left: -1%;
+  top: 0%;
+  content: "";
+  transition: top, opacity;
+  transition-duration: 600ms;
+  transition-timing-function: ease;
+  opacity: 0;
+}
+
+.ser_card:hover {
+  box-shadow: 2px 0px 8px white;
+}
+.ser_card:hover:after {
+  top: 35%;
+  opacity: 1;
+}
+.ser_card_head {
+  padding: 5%;
+}
+.ser_content {
+  padding-left: 5%;
+  color: white;
+}
+.ser_list {
+  padding: 5%;
+
+  width: 80%;
+  position: relative;
+  left: 5%;
+}
+.ser_list > li {
+  background-color: inherit;
+  font-size: 2rem;
+  padding: 3% 0%;
+  color: white;
+}
+.ser_list > li:nth-child(even) {
+  background-color: rgb(12, 14, 27);
+}
+
+.purchase {
+  height: 5vh;
+  width: 40%;
+  background-color: rgb(223, 38, 124);
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+
+  // position: absolute;
+  // left: 90%;
+  // bottom: 10%;
+
+  z-index: 3;
+}
+.demo {
+  color: wheat;
+  font-size: 1rem;
+  padding-left: 5%;
+  // position: relative;
+  // top: 10%;
+}
+
+// todo typo scale hyriecy content media queri

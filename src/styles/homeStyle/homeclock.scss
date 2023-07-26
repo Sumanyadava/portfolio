@@ -1,0 +1,86 @@
+$Background:rgb(0, 0, 0);
+$Text: rgb(255, 255, 255);
+$Primary_Button: #311c60;
+$Secondary_Button: #504ee4;
+$Accent: #f0286e;
+$spice: #ff3636;
+
+
+.clock{
+    // scroll-snap-align: start;
+    // background-color: aquamarine;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.time{
+    height: 200vh;
+    width: 200vw;
+
+    padding: 250px;
+    margin: -250px;
+    background-image: conic-gradient(white 10%,black );
+    animation: rotateto 60s linear  infinite  ;
+
+    
+}
+.name{
+    height: 50vh;
+    width: 35vw;
+    font-family: 'Raleway', sans-serif;
+    
+    // background-color: #0900ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+    position: absolute;
+    z-index: 2;
+    .h2{
+        
+        width: 100%;
+        text-align: start;
+        font-size: 2rem;
+        font-weight: 400;
+        // color: white;
+    }
+    .downn{
+        // color: $spice;
+        text-align: end;
+    }
+    .tim{
+        font-size: 18rem;
+        
+        font-weight: 900;
+        color: #2d2e35;
+        /*
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        */
+        height: 40%;
+        width: 120%;
+        
+        // background-color: #311c60;
+        position: relative;
+        top:-18%;
+        left: -18%;
+        
+    }
+
+}
+
+
+@keyframes rotateto {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
