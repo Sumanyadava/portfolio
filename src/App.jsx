@@ -2,11 +2,11 @@ import { useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 
-import Home from "./cpmponent/home/Home";
-import Header from "./cpmponent/Header";
-import Services from "./cpmponent/Service/Services";
-import Admin from "./cpmponent/Admin/Admin";
-import Fotter from "./cpmponent/Fotter";
+import Home from "./pages/home/Home";
+import Header from "./components/Header/Header";
+import Services from "./pages/Service/Services";
+import Admin from "./pages/Admin/Admin";
+import Fotter from "./components/Footer/Footer";
 
 import "./app.scss";
 
@@ -14,13 +14,14 @@ function App() {
   const location = useLocation();
 
   useEffect(() => {
+
     // code for cursur 
     console.log("rendered");
 
     // declaration of variables
     let mousecursor = document.querySelector(".cursor");
     let nav = document.querySelectorAll("a");
-    let hiddentypo = document.querySelector(".hidden");
+    let hiddentypo = document.querySelectorAll(".hidden, .name");
 
 
     window.addEventListener("mousemove", cursor);
@@ -28,7 +29,13 @@ function App() {
     function cursor(e) {
       mousecursor.style.top = e.pageY + "px";
       mousecursor.style.left = e.pageX + "px";
+
+      mousecursor.animate({
+        left: `${e.pageX}px`,
+        top:`${e.pageY}px`
+      },{duration:500,fill:"forwards"})
     }
+
 
     // code for all the links to grow up 
     nav.forEach((link) => {
@@ -41,14 +48,18 @@ function App() {
       });
     });
 
-    if (hiddentypo != null) {
-      hiddentypo.addEventListener("mouseover", () => {
-        mousecursor.classList.add("large");
-      });
-      hiddentypo.addEventListener("mouseleave", () => {
-        mousecursor.classList.remove("large");
-      });
-    }
+    hiddentypo.forEach((typo =>{
+      if (typo != null) {
+        typo.addEventListener("mouseover", () => {
+          mousecursor.classList.add("large");
+        });
+        typo.addEventListener("mouseleave", () => {
+          mousecursor.classList.remove("large");
+        });
+      }
+    }))
+     
+    
   }, [location]);
 
   return (
