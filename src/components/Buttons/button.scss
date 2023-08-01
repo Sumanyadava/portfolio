@@ -1,7 +1,9 @@
 $Accent: #fd343a;
 .Down{
-    color: aliceblue;
-    background-color: $Accent;
+    border: solid black;
+    color: black;
+    font-size: 1rem;
+    background-color: white;
     height: 5vh;   
     z-index: 5; 
 }

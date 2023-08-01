@@ -1,11 +1,11 @@
 import React from 'react'
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 
 
 import data from '../../fakeapi.json'
 
 
-import './nav.scss'
+import './header.scss'
 
 
 const Header = () => {
@@ -14,11 +14,11 @@ const Header = () => {
         <div className="logo ">{data.name}</div>
         <nav>
             
-            <Link to="/">Home</Link>
+            <NavLink to="/">Home</NavLink>
 
-            <Link to="/services">Services</Link>
+            <NavLink to="/services">Services</NavLink>
 
-            <Link to="/Admin">Admin</Link>
+            <NavLink to="/Admin">Admin</NavLink>
         </nav>
         </div>
     )

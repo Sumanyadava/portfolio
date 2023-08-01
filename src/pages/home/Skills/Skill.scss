@@ -13,7 +13,7 @@ $Primary_Button_c:#edb74a;
   height: 100vh;
   width: 100%;
   background-color: $Secondary_Button;
-
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -45,7 +45,7 @@ $Primary_Button_c:#edb74a;
 
 // ------------------- 3 main div ends here ------------------------------------------------------------------------------
 .nav_center_ty {
-  font-family: 'Josefin Sans', sans-serif;
+  
   font-weight: 400;
   margin-top: 30px;
   font-size: 80px;
@@ -68,7 +68,7 @@ $Primary_Button_c:#edb74a;
 }
 .before,
 .after {
-  font-family: 'Josefin Sans', sans-serif;
+  
   font-size: 0px;
   display: flex;
   justify-content: center;
@@ -105,12 +105,12 @@ $Primary_Button_c:#edb74a;
 }
 // dispaly block content of skills aur projecst mai bi
 .skill_tech_h1 {
-  // background-color: $Primary_Button_c;
-  padding: 5%;
-  font-size: 4rem;
-  // color: $Accent;
-  color: $spice;
-  font-family: 'Josefin Sans', sans-serif;
+
+  padding: 3%;
+  font-size: 10rem;
+  
+  color: white;
+  
   
 }
 ul{
@@ -135,13 +135,13 @@ li{
   
 }
 .skill_proj_h1 {
-  // background-color: $Primary_Button_c;
-  padding: 5%;
-  font-size: 4rem;
-  // color: $Accent;
-  color: $spice;
   
-  font-family: 'Josefin Sans', sans-serif;
+  padding: 3%;
+  font-size: 10rem;
+  
+  color: white;
+  
+  
 }
 
 .skill_content {

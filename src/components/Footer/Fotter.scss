@@ -8,8 +8,12 @@ $spice: #ff3636;
 .foot {
   height: 60vh;
   width: 100%;
+   
   // background-color: rebeccapurple;
 }
+
+
+
 .message {
   height: 58vh;
   width: 100%;
@@ -20,7 +24,7 @@ $spice: #ff3636;
   align-items: center;
   .lspr {
     height: 100%;
-    width: 80%;
+    width: 60%;
     // background-color: antiquewhite;
     display: flex;
     justify-content: space-evenly;
@@ -66,16 +70,28 @@ $spice: #ff3636;
       }
     }
   }
+  .part2{
+    height: 100%;
+    width: 40%;
+    // background-image: linear-gradient(60deg, black, white);
+    background-color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
   .job {
     height: 100%;
-    width: 20%;
+    width: 80%;
     // background-color: $Secondary_Button;
-    border-left: solid white;
+    border-left: solid rgb(0, 0, 0);
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: column;
-    background-image: linear-gradient(220deg, black, white);
+    // background-image: linear-gradient(220deg, black, white);
+    
     background-size: 300%;
     background-position: right;
     transition: 300ms ease-in;
@@ -84,34 +100,22 @@ $spice: #ff3636;
       width: 60%;
       // border-radius: 40%;
 
-      // background-color: aliceblue;
-      border: solid white;
+      background-color: aliceblue;
+      border: solid rgb(0, 0, 0);
     }
     h2 {
-      font-size: 2rem;
+      font-size: 3rem;
     }
     .ctaction {
       width: 80%;
       height: 10%;
-
+      // background-color: #0077b5;
       display: flex;
-      justify-content: space-around;
+      justify-content: space-evenly;
       align-items: center;
+      
 
-      /*
-      .em{
-        height: 100%;
-        width: 40%;
-        // border-radius: 10%;
-        border: solid white;
-        text-align: center;
-        
-        color: white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      */
+      
       .em,
       .de {
         z-index: 2;
@@ -119,22 +123,28 @@ $spice: #ff3636;
     }
   }
 }
+//button class
+.Emm{
+  width: 15vh;
+}
+.Down{
+  width: 20vh;
+}
+
 .photo{
   background-image: url(../../assets/images/profile.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: left;
 }
-.job:hover {
-  background-position: center;
-}
+
 
 .social {
   height: 100%;
-  width: 5%;
+  width: 20%;
   // background-color: #0077b5;
-  background-image: linear-gradient(60deg, black, white);
-  border-right: solid white;
+  // background-image: linear-gradient(60deg, black, white);
+  border-right: solid rgb(0, 0, 0);
   display: flex;
   justify-content: space-around;
   flex-direction: column;
@@ -149,9 +159,7 @@ $spice: #ff3636;
     align-self: center;
   }
 }
-.social:hover {
-  background-position: right;
-}
+
 .copy {
   // height: 10vh;
   font-size: 2rem;

@@ -11,7 +11,7 @@ const Hometypo = () => {
 
         
         <div className="tyno" >
-            <h1 className="typoN"> Actions speaks</h1>
+            <h1 className="typoHead"> Actions speaks</h1>
             <div className="hidden">   Priority</div>
             
         </div>

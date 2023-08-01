@@ -8,6 +8,7 @@ $Accent: #f0286e;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .cv{
@@ -27,6 +28,7 @@ $Accent: #f0286e;
     background-image: linear-gradient(318deg,#1B1B23,#2E313A);
     @include flx();
     z-index: 1;
+    overflow: hidden;
 }
 .points{
     // background-color: rgb(97, 240, 157);
@@ -34,23 +36,44 @@ $Accent: #f0286e;
     width: 19%;
     
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-left: 10px;
     
 }
+.HeadList {
+    // background-color: #1ac9ff;
+    height: 20%;
+    width: 80%;
+}
+.HeadList >li:nth-child(1){
+    font-size: 2rem;
+}
+.headcv {
+    
+    font-size: 2rem;
+    margin: 3%;
+    color: rgb(255, 255, 255);
+
+    list-style: circle;
+
+}
+
 .write{
     // background-color: rgb(255, 186, 95);
     
     height: 80vh;
     width: 80%;
     position: relative;
+    
 }
+
 .profile{
     position: absolute;
     right: 0%;
-    top: 8%;
+    top: 10%;
+    
 
 
     height: 660px;
@@ -72,16 +95,13 @@ $Accent: #f0286e;
     bottom: 10%;
     right: 10%;
 }
-h1{
-    
-    font-size: 2rem;
-    color: rgb(255, 255, 255);
 
-}
 .headingofcv{
+    
     color: white;
-    padding: 4%;
-    font-size: 5rem;
+    padding: 1%;
+    font-size: 10rem;
+    
     // background-color: #000000;
 }
 .para{
