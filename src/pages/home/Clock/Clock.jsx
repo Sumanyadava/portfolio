@@ -79,7 +79,7 @@ const HomeClock = () => {
           {tarDays}:{tarhours}:{tarMin}:{tarSec}
         </div>
 
-        <h2 className="downn h2">Complete code dept</h2>
+        <h2 className="downn h2">{data.mission_name}</h2>
       </div>
       
     </div>

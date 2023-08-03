@@ -13,6 +13,8 @@ const Hometypo = () => {
         <div className="tyno" >
             <h1 className="typoHead"> Actions speaks</h1>
             <div className="hidden">   Priority</div>
+
+            <div className="image_gsap"></div>
             
         </div>
     )

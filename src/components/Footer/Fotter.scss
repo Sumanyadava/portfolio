@@ -5,6 +5,11 @@ $Secondary_Button: #504ee4;
 $Accent: #f0286e;
 $spice: #ff3636;
 
+
+$Heading_font:'Space Mono', monospace;
+$paragraph_font:'Nova Mono', monospace;
+
+
 .foot {
   height: 60vh;
   width: 100%;
@@ -34,10 +39,10 @@ $spice: #ff3636;
       height: 20%;
       width: 80%;
 
-      font-size: 5rem;
+      font-family: $Heading_font;
+      font-size: 42px;
 
-      color: $spice;
-      // background-color: rgb(178, 207, 233);
+      color: white;
     }
     .send {
       height: 60%;
@@ -50,8 +55,8 @@ $spice: #ff3636;
       textarea {
         height: 100%;
         width: 60%;
-
-        font-size: 3rem;
+        font-family: $paragraph_font;
+        font-size: 26px;
         outline: none;
         color: white;
         background-color: $Background;
@@ -66,9 +71,18 @@ $spice: #ff3636;
         color: white;
 
         border: solid;
-        font-size: 3rem;
+        font-family: $Heading_font;
+        font-size: 42px;
+        
+
+        transition: 1s ease;
       }
     }
+  }
+  .send > button:hover{
+    background-color: white;
+    color: black;
+    
   }
   .part2{
     height: 100%;
@@ -98,20 +112,26 @@ $spice: #ff3636;
     .photo {
       height: 60%;
       width: 60%;
+      filter: grayscale(1);
+      transition: 1s ease;
       // border-radius: 40%;
 
       background-color: aliceblue;
       border: solid rgb(0, 0, 0);
     }
+    .photo:hover{
+      filter: grayscale(0);
+    }
     h2 {
-      font-size: 3rem;
+      font-family: $paragraph_font;
+      font-size: 42px;
     }
     .ctaction {
-      width: 80%;
+      width: 60%;
       height: 10%;
-      // background-color: #0077b5;
+      
       display: flex;
-      justify-content: space-evenly;
+      justify-content: space-between;
       align-items: center;
       
 
@@ -123,6 +143,7 @@ $spice: #ff3636;
     }
   }
 }
+
 //button class
 .Emm{
   width: 15vh;
@@ -162,8 +183,9 @@ $spice: #ff3636;
 
 .copy {
   // height: 10vh;
-  font-size: 2rem;
-  background-color: wheat;
+  font-family: $paragraph_font;
+  font-size: 26px;
+  background-color: white;
   color: rgb(0, 0, 0);
 }
 

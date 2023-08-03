@@ -4,6 +4,10 @@ $Primary_Button: #1ac9ff;
 $Secondary_Button: #504ee4;
 $Accent: #f0286e;
 
+$Heading_font:'Space Mono', monospace;
+$paragraph_font:'Nova Mono', monospace;
+
+
 @mixin flx() {
     display: flex;
     justify-content: center;
@@ -43,17 +47,21 @@ $Accent: #f0286e;
     
 }
 .HeadList {
-    // background-color: #1ac9ff;
+    
     height: 20%;
     width: 80%;
+    
 }
 .HeadList >li:nth-child(1){
-    font-size: 2rem;
+    font-size: 26px;
 }
 .headcv {
+    font-family: $Heading_font;
+
+    font-size: 26px;
+
+    line-height: 42px;
     
-    font-size: 2rem;
-    margin: 3%;
     color: rgb(255, 255, 255);
 
     list-style: circle;
@@ -99,14 +107,24 @@ $Accent: #f0286e;
 .headingofcv{
     
     color: white;
-    padding: 1%;
-    font-size: 10rem;
+    font-family: $Heading_font;
+    font-size: 110px;
+    line-height: 110px;
+    height: 30%;
     
+    display: flex;
+    justify-content: center;
+    align-items: center;
     // background-color: #000000;
 }
 .para{
     width: 70%;
     padding: 2%;
+
+    font-family: $paragraph_font;
+    font-size: 26px;
+    line-height: 42px;
+
     // background-color: #1ac9ff;
     color: white;
     

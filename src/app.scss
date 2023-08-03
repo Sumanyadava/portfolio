@@ -4,10 +4,10 @@ $Primary_Button: #1ac9ff;
 $Secondary_Button: #504ee4;
 $Accent: #f0286e;
 
-@font-face {
-  font-family: myFont;
-  src: url(assets/fonts/Regular/forfree.ttf);
-}
+$Heading_font:'Space Mono', monospace;
+$paragraph_font:'Nova Mono', monospace;
+
+
 
 * {
   user-select: none;

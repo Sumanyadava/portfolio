@@ -1,4 +1,11 @@
 $Accent: #fd343a;
+
+
+$Heading_font:'Space Mono', monospace;
+$paragraph_font:'Nova Mono', monospace;
+
+
+
 .Down{
     border: solid black;
     color: black;
@@ -6,6 +13,8 @@ $Accent: #fd343a;
     background-color: white;
     height: 5vh;   
     z-index: 5; 
+
+    font-family: $Heading_font;
 }
 a{
     z-index: 5;

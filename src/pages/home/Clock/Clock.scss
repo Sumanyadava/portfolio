@@ -5,6 +5,10 @@ $Secondary_Button: #504ee4;
 $Accent: #f0286e;
 $spice: #ff3636;
 
+$Heading_font:'Space Mono', monospace;
+$paragraph_font:'Nova Mono', monospace;
+
+
 .both{
     // height: 200vh;
     // width: 100%;
@@ -37,9 +41,9 @@ $spice: #ff3636;
     
     
     width: 20vw;
-    
-    padding: 0% 5% 10% 1%;
-   
+    // background-color: #311c60;
+    padding: 0% 15% 10% 1%;
+    overflow: hidden;
    
 
     
@@ -60,24 +64,28 @@ $spice: #ff3636;
     z-index: 2;
     .h2{
         
+        font-family: $paragraph_font;
+
         width: 100%;
         text-align: start;
-        font-size: 2rem;
+        font-size: 26px;
+        // line-height: 52px;
         
         // font-weight: 800;
         // color: white;
     }
     .downn{
-        // color: $spice;
+        
+        width: 72vh;
         text-align: end;
     }
     
 
 }
 .tim{
-    // font-size: 12rem;
-    font-size: 5rem;
-    font-weight: 400;
+    font-family: $Heading_font;
+    font-size: 92px;
+    line-height: 104px;
     
 
     // mix-blend-mode: difference;

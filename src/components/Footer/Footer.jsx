@@ -22,14 +22,26 @@ const Fotter = () => {
               placeholder="write your ideas here..."
             ></textarea>
 
-            <button className="ssend">Send</button>
+            <button className="ssend" id ="send_button" onClick={
+              
+              ()=>{ console.log("ajhsgdjhasgd clicked");
+              
+
+
+               document.querySelector("#send_button").innerHTML =  "not working currently "
+              
+              }
+               
+               
+               
+               }>Send</button>
           </div>
         </div>
 
         <div className="part2">
         <div className="job">
           <div className="photo"></div>
-          <h2>Want to HIRE me</h2>
+          <h2>Want to hire me</h2>
           <div className="ctaction">
             <div className="de">
               <Resume />

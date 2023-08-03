@@ -18,7 +18,7 @@ const Header = () => {
 
             <NavLink to="/services">Services</NavLink>
 
-            <NavLink to="/Admin">Admin</NavLink>
+            {/* <NavLink to="/Admin">Admin</NavLink> */}
         </nav>
         </div>
     )

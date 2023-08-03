@@ -1,7 +1,14 @@
 $Text: aliceblue;
+
+
+$Heading_font:'Space Mono', monospace;
+$paragraph_font:'Nova Mono', monospace;
+
+
 .Emm{
     border: solid black;
     color: black;
     background-color: white;
     height: 5vh;    
+    font-family: $Heading_font;
 }

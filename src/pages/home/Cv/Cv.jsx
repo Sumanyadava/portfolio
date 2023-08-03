@@ -53,16 +53,16 @@ const Homecv = () => {
       options[3].style.listStyle = "circle";
 
       heading.textContent = data.cv.Heading[2];
-      para.textContent = data.cv.tag[3];
+      para.innerHTML = data.cv.tag[3];
     }
-    else if (e == 4) {
+    else if (e === 4) {
       
       options[0].style.listStyle = "circle";
       options[1].style.listStyle = "circle";
       options[2].style.listStyle = "circle";
       options[3].style.listStyle = "disc";
       heading.textContent = data.cv.Heading[3];
-      para.textContent = data.cv.tag[4];
+      para.innerHTML = data.cv.tag[4];
     }
     else {
       heading.textContent = "hover "

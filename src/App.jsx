@@ -5,7 +5,7 @@ import { useLocation } from "react-router-dom";
 import Home from "./pages/home/Home";
 import Header from "./components/Header/Header";
 import Services from "./pages/Service/Services";
-import Admin from "./pages/Admin/Admin";
+// import Admin from "./pages/Admin/Admin";
 import Fotter from "./components/Footer/Footer";
 
 import "./app.scss";
@@ -75,7 +75,7 @@ function App() {
 
           <Route path="/services" element={<Services />} />
 
-          <Route path="/admin" element={<Admin />} />
+          {/* <Route path="/admin" element={<Admin />} /> */}
 
           <Route path="*" element={<div background-color="red"><h1>PAge not found</h1></div>} />
         </Routes>

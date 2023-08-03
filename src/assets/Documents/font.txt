@@ -1,0 +1,17 @@
+text pair = nova monospace and space monospace
+
+type scale 
+
+16 px -para
+26 px 
+42 px
+68 px 
+110 px 
+
+or 
+
+26px
+42 px 
+48 px 
+110px
+225 px 
