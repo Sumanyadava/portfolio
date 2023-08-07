@@ -24,32 +24,42 @@ const Homeskills = () => {
     proj.style.display = "block";
 
     console.log(e);
+    // rendering list here 
+
     if (e === 1) {
-      //rendering list herer
+      
       const showHTML = Expe.map((project) => {
         return `<li> ${project} </li>`;
       }).join("");
       main_skils.innerHTML = showHTML;
-    } else if (e === 2) {  
-      //rendering list herer
+    } 
+    
+    else if (e === 2) {  
+      
       const showHTML = Desi.map((project) => {
         return `<li> ${project} </li>`;
       }).join("");
       main_skils.innerHTML = showHTML;
-    } else if (e === 3) {
-      //rendering list herer
+    } 
+    
+    else if (e === 3) {
+      
       const showHTML = Webe.map((project) => {
         return `<li> ${project} </li>`;
       }).join("");
       main_skils.innerHTML = showHTML;
-    } else if (e === 4) {
-      //rendering list herer
+    } 
+    
+    else if (e === 4) {
+      
       const showHTML = Appy.map((project) => {
         return `<li> ${project} </li>`;
       }).join("");
       main_skils.innerHTML = showHTML;
-    } else {
-      //rendering list herer
+    } 
+    
+    else {
+      
       const showHTML = Othe.map((project) => {
         return `<li> ${project} </li>`;
       }).join("");
@@ -122,10 +132,10 @@ const Homeskills = () => {
 
           <div className="projectview">
             <div className="skill_content">
-              <div className="pro_show pro_one">1</div>
-              <div className="pro_show pro_two">2</div>
-              <div className="pro_show pro_three">3</div>
-              <div className="pro_show pro_four">4</div>
+              <div className="pro_show pro_one">Coffe Website</div>
+              <div className="pro_show pro_two">Resturant Website</div>
+              <div className="pro_show pro_three">Portfolio</div>
+              <div className="pro_show pro_four">First Project</div>
             </div>
           </div>
         </div>

@@ -65,7 +65,7 @@ const HomeClock = () => {
     settarMin(RoundMinute);
     settarSec(RoundSec);
   };
-  setInterval(UpdateTime, 1000);
+  setInterval(UpdateTime);
 
   return (
     <>

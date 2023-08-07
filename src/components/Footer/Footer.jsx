@@ -55,7 +55,7 @@ const Fotter = () => {
         </div>
         
         <div className="social">
-          <a href="https://www.linkedin.com/feed/">
+          <a href="https://www.linkedin.com/in/sum-an-2b7604286/">
             <FaLinkedin className="icon linkedin" />
           </a>
           <a href="https://github.com/Sumanyadava">
