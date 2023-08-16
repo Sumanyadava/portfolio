@@ -1,3 +1,8 @@
+# Visit Me on
+you can visit the protfolio in 
+https://sumany.netlify.app/
+
+
 # Getting Started with Create React App
 
 ## Available Scripts
@@ -14,6 +19,3 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ### `npm run eject`
 
-# Visit
-you can visit the protfolio in 
-https://sumany.netlify.app/
