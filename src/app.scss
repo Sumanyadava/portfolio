@@ -45,7 +45,14 @@ html::-webkit-scrollbar {
   //for edge
   -ms-overflow-style: none;
 }
-
+.preloader{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
 
 .cursor{
   height: 3rem;

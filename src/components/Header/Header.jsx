@@ -8,7 +8,13 @@ import data from '../../fakeapi.json'
 import './header.scss'
 
 
+
+
 const Header = () => {
+
+    
+
+
     return (
         <div className="head">
         <div className="logo ">{data.name}</div>

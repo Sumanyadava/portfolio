@@ -16,7 +16,6 @@ const Home = () => {
       <Clock />
       
       
-      {/* <Cv /> */}
       <Typo />
       <Skills />
     </div>
