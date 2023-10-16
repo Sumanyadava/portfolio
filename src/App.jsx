@@ -175,7 +175,7 @@ function App() {
   
   
     
-  }, [location.pathname]);
+  }, [location.pathname,loading]);
 
   
 
