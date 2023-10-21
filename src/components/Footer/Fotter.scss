@@ -144,6 +144,10 @@ $paragraph_font:'Nova Mono', monospace;
   }
 }
 
+.ssend{
+  background-color: #0077b5;
+}
+
 //button class
 .Emm{
   width: 15vh;
@@ -211,6 +215,19 @@ $paragraph_font:'Nova Mono', monospace;
     rgb(250, 126, 30),
     rgb(150, 47, 191)
   );
+}
+
+@media only screen and (max-width: 1440px) {
+  .ssend {
+    font-size: 4rem;
+  }
+  
+}
+
+@media only screen and (max-width:1920px) {
+  .ssend{
+      font-size: 4rem;
+  }
 }
 
 

@@ -90,7 +90,7 @@ const Homecv = () => {
           </div>
         </div>
         <div className="write">
-          <div className="headingofcv">Hover Over</div>
+          <div className="headingofcv">Click On</div>
           <div className="para"> the options </div>
           <div className="table">
             <ul className="sktills"></ul>

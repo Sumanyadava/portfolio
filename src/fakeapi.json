@@ -14,9 +14,9 @@
         "Web": [
             "React",
             "Scss",
-            "php",
-            "MySqli",
-            "DBMS",
+            "php , C#",
+            "MySqli, SQL Server",
+            "DBMS , OOPs",
             "html , css ,js"
         ],
         "App": [
@@ -27,7 +27,6 @@
         ],
         "Other": [
             "Python",
-            "AI/ML (not experienced)",
             "C++",
             "py automation",
             "youtube"
