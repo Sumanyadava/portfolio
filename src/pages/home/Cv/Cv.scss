@@ -74,7 +74,15 @@ $paragraph_font:'Nova Mono', monospace;
     height: 80vh;
     width: 80%;
     position: relative;
+    overflow: scroll;
     
+}
+.write::-webkit-scrollbar{
+    display: none;
+}
+.write{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 .profile{
