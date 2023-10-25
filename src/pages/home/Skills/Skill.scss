@@ -14,8 +14,8 @@ $paragraph_font:'Nova Mono', monospace;
 
 
 .skill_container {
-  scroll-snap-align: start;
-  scroll-margin: 5vh;
+  // scroll-snap-align: start;
+  // scroll-margin: 5vh;
   height: 100vh;
   width: 100%;
   background-color: $Secondary_Button;
@@ -30,7 +30,21 @@ $paragraph_font:'Nova Mono', monospace;
   height: 100%;
   width: 45%;
   background-color: black;
+  overflow-y: scroll;
+
 }
+
+// for scroll bar 
+
+.skill_tech::-webkit-scrollbar{
+  display: none;
+}
+.skill_tech{
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
 .skill_proj{
   height: 100%;
   width: 45%;
@@ -114,7 +128,7 @@ $paragraph_font:'Nova Mono', monospace;
 }
 // dispaly block content of skills aur projecst mai bi
 .skill_tech_h1 {
-
+  background-color: #f0286e;
   padding: 3%;
   font-family: $Heading_font;
   font-size: 68px;
@@ -144,9 +158,10 @@ li{
   // background-color: aliceblue;
   display: none;
   
+  
 }
 .skill_proj_h1 {
-  
+  background-color: #f0286e;
   padding: 3%;
   font-family: $Heading_font;
   font-size: 68px;
@@ -251,6 +266,40 @@ img{
   top: 100px;
   position: absolute;
   font-size: 4rem;
+}
+
+@media only screen and (max-width:760px) {
+
+  .skill_container{
+    flex-direction: column;
+    height: 90vh;
+
+  }
+  .skill_tech,.skill_proj{
+    height: 40vh;
+    width: 100%;
+  }
+  .skill_nav{
+    height: 10vh;
+    width: 100%;
+    flex-direction: row;
+    font-size: 30px;
+  }
+  
+  .skill_tech_h1, .skill_proj_h1{
+    font-size: 30px;
+    
+  }
+  .nav_center_ty{
+    margin-top: -25px;
+  }
+  .nav_center_ty:hover > .before,
+.nav_center_ty:hover > .after {
+  display: block;
+  font-size: 25px;
+  // background-color: aliceblue;
+}
+  
 }
 
 

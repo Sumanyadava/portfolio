@@ -96,8 +96,8 @@ const Homecv = () => {
             <ul className="sktills"></ul>
           </div>
           <div className="PDF">
-            <Resume />
-          </div>
+              <Resume />
+            </div>
           <div className="profile"></div>
         </div>
       </div>

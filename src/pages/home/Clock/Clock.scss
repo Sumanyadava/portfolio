@@ -127,4 +127,35 @@ $paragraph_font:'Nova Mono', monospace;
     .tim{
         font-size: 4rem;
     }
-  }
+}
+
+    @media only screen and (max-width:760px) {
+        .clock{
+            height: 70vh;
+        }
+        .name > .h2{
+            text-align: end;
+            font-size: 30px;
+            width: 30vh;
+            width: 80vw;
+            color: black;
+            
+            
+        }
+        .upp{
+            margin-left: 10% ;
+        }
+        .name{
+            background-color: white;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-70%);
+            overflow: visible;
+            width: 70vw;
+            mix-blend-mode: difference;
+        }
+        .tim{
+            font-size: 2.8rem;
+            
+        }
+    }

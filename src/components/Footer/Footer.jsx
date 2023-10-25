@@ -28,7 +28,7 @@ const Fotter = () => {
               
 
 
-               document.querySelector("#send_button").innerHTML =  "not working currently "
+               document.querySelector("#send_button").innerHTML =  "under Cons "
               
               }
                

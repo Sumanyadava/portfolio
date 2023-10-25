@@ -74,7 +74,7 @@ $paragraph_font:'Nova Mono', monospace;
     height: 80vh;
     width: 80%;
     position: relative;
-    overflow: scroll;
+    overflow-y: scroll;
     
 }
 .write::-webkit-scrollbar{
@@ -145,4 +145,39 @@ li{
     background-color: #1B1B23;
     
     font-size: 2rem;
+}
+
+@media only screen and (max-width:760px) {
+    .cv_container{
+        flex-direction: column;
+    }
+    .points{
+        height: 10vh;
+        width: 100%;
+    }
+    .HeadList{
+        width: 100%;
+        display: flex;
+    }
+    .HeadList > li:nth-child(1) {
+        font-size: 12px;
+    }
+    .headcv{
+        font-size: 12px;
+    }
+    .profile{
+        height: 400px;
+        width: 300px;
+        right: 0%;
+        top: 25%;
+    }
+    .write{
+        width: 100%;
+    }
+    .headingofcv{
+        font-size: 30px;
+    }
+    .para{
+        font-size: 20px;
+    }
 }

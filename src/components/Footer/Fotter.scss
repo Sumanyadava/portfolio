@@ -242,19 +242,51 @@ $paragraph_font:'Nova Mono', monospace;
 
 
 
-
-
-
-
-
-
-
-
-
-
 @media only screen and (max-width: 800px) {
   
   .letsstart {
     font-size: 3rem;
   }
+}
+
+@media only screen and (max-width: 740px) {
+  .message{
+    flex-direction: column;
+    height: 100vh;
+
+  }
+  .message >.lspr{
+    width: 100%;
+  }
+  .message >.lspr > .letsstart{
+    font-size: 30px;
+    width: 90%;
+    
+  }
+  #send_button{
+    width: 30%;
+  }
+  .message > .part2{
+    width: 100%;
+  }
+  .copy{
+    font-size: 10px;
+  }
+  .message .job  .photo{
+    width: 80%;
+    background-color: #00a6ff;
+  }
+  .message .job h2{
+    font-size: 30px;
+  }
+  .message .job .ctaction{
+    justify-content: center;
+  }
+  .Down{
+    
+    width: 18vh;
+    font-size: 12px;
+  }
+
+
 }
