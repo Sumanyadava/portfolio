@@ -55,7 +55,7 @@ $paragraph_font:'Nova Mono', monospace;
   height: 100%;
   width: 10%;
   font-family: $Heading_font;
-  font-size: 68px;
+  font-size: 40px;
 
 
   background-image: linear-gradient(318deg,#131318,#091c43);
@@ -103,7 +103,7 @@ $paragraph_font:'Nova Mono', monospace;
 .nav_center_ty:hover > .before,
 .nav_center_ty:hover > .after {
   display: block;
-  font-size: 68px;
+  font-size: 40px;
   // background-color: aliceblue;
 }
 
@@ -207,10 +207,10 @@ li{
     background-image: url(../../../assets/images/Daree.png);
   }
   .pro_three{
-    background-image: url(../../../assets/images/portfolio.png);
+    background-image: url(../../../assets/images/asd.PNG);
   }
   .pro_four{
-    background-image: url(../../../assets/images/first.png);
+    background-image: url(../../../assets/images/firstt.PNG);
   }
   .pro_one:hover{
     filter: grayscale(0);

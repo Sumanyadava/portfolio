@@ -4,7 +4,8 @@
         "Expertise": [
             "The two fields are:",
             "web development",
-            "video editing"
+            "Mern Stack",
+            "React Native"
         ],
         "Design": [
             "Figma",
@@ -13,17 +14,18 @@
         ],
         "Web": [
             "React ,Redux , React Router",
-            "Scss , Tailwind",
-            "php , C#",
-            "MySqli, SQL Server",
-            "DBMS , OOPs",
+            "Scss , Tailwind, Bootstrap",
+            "php , node",
+            "MySqli, Mongodb",
+            " Daisy ui,accernity ui, material ui",
             "html , css ,js"
         ],
         "App": [
             "Java",
             "XML",
             "Sqlite",
-            "android studio"
+            "android studio",
+            "React Native"
         ],
         "Other": [
             "Python",
@@ -35,12 +37,12 @@
     "project": {
         "Expertise": [
             "web development",
-            "video editing",
-            "help"
+            "Mern Stack"
         ],
         "Design": [
             "adobe primear pro",
-            "after effercts"
+            "after effercts",
+            "figma"
         ],
         "Web": [
             "html",
@@ -48,7 +50,7 @@
         ],
         "App": [
             "andoid",
-            "asdasd"
+            "React"
         ],
         "Other": [
             "python",
@@ -80,6 +82,6 @@
         "Skills_head":"Heasing of skills"
 
         },
-        "mission_time":"February 15 , 2024",
+        "mission_time":"May 15 , 2024",
         "mission_name":"jet a job"
     }

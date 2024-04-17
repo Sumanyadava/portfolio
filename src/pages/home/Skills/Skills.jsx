@@ -134,8 +134,8 @@ const Homeskills = () => {
             <div className="skill_content">
               <div className="pro_show pro_one">Coffe Website</div>
               <div className="pro_show pro_two">Resturant Website</div>
-              <div className="pro_show pro_three">Portfolio</div>
-              <div className="pro_show pro_four">First Project</div>
+              <div className="pro_show pro_three">Python automation</div>
+              <div className="pro_show pro_four">ToGo</div>
             </div>
           </div>
         </div>
