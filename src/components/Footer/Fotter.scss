@@ -5,15 +5,13 @@ $Secondary_Button: #504ee4;
 $Accent: #f0286e;
 $spice: #ff3636;
 
-
-$Heading_font:'Space Mono', monospace;
-$paragraph_font:'Nova Mono', monospace;
-
+$Heading_font: "Space Mono", monospace;
+$paragraph_font: "Nova Mono", monospace;
 
 .foot {
   height: 60vh;
   width: 100%;
-   
+
   // background-color: rebeccapurple;
 }
 
@@ -45,16 +43,26 @@ $paragraph_font:'Nova Mono', monospace;
       color: white;
     }
     .send {
-      height: 60%;
+      height: 80%;
       width: 92%;
       // background-color: #1ac9ff;
       display: flex;
       justify-content: space-evenly;
       align-items: center;
-
-      textarea {
+      .contact {
         height: 100%;
-        width: 60%;
+        width: 100%;
+        // background-color: #00a6ff;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+      }
+      .nameinp,
+      .emailinp ,textarea{
+        height: 10%;
+        width: 100%;
+        
         font-family: $paragraph_font;
         font-size: 26px;
         outline: none;
@@ -63,8 +71,12 @@ $paragraph_font:'Nova Mono', monospace;
         border: solid white;
         z-index: 4;
       }
+      textarea{
+        height: 50%;
+      }
+      
       button {
-        height: 60%;
+        height: 20%;
         width: 20%;
         background-color: $Background;
 
@@ -72,28 +84,25 @@ $paragraph_font:'Nova Mono', monospace;
 
         border: solid;
         font-family: $Heading_font;
-        font-size: 42px;
-        
+        font-size: 20px;
 
         transition: 1s ease;
       }
     }
   }
-  .send > button:hover{
+  .send > button:hover {
     background-color: white;
     color: black;
-    
   }
-  .part2{
+  .part2 {
     height: 100%;
     width: 40%;
     // background-image: linear-gradient(60deg, black, white);
     background-color: white;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
-    
   }
   .job {
     height: 100%;
@@ -105,7 +114,7 @@ $paragraph_font:'Nova Mono', monospace;
     justify-content: space-evenly;
     flex-direction: column;
     // background-image: linear-gradient(220deg, black, white);
-    
+
     background-size: 300%;
     background-position: right;
     transition: 300ms ease-in;
@@ -119,7 +128,7 @@ $paragraph_font:'Nova Mono', monospace;
       background-color: aliceblue;
       border: solid rgb(0, 0, 0);
     }
-    .photo:hover{
+    .photo:hover {
       filter: grayscale(0);
     }
     h2 {
@@ -129,13 +138,11 @@ $paragraph_font:'Nova Mono', monospace;
     .ctaction {
       width: 60%;
       height: 10%;
-      
+
       display: flex;
       justify-content: space-between;
       align-items: center;
-      
 
-      
       .em,
       .de {
         z-index: 2;
@@ -144,25 +151,24 @@ $paragraph_font:'Nova Mono', monospace;
   }
 }
 
-.ssend{
+.ssend {
   background-color: #0077b5;
 }
 
 //button class
-.Emm{
+.Emm {
   width: 15vh;
 }
-.Down{
+.Down {
   // width: 20vh;
 }
 
-.photo{
+.photo {
   background-image: url(../../assets/images/profile.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: left;
 }
-
 
 .social {
   height: 100%;
@@ -197,7 +203,7 @@ $paragraph_font:'Nova Mono', monospace;
   font-size: 3rem;
   filter: grayscale(1);
 }
-.icon:hover{
+.icon:hover {
   filter: grayscale(0);
   transition: 1s ease;
 }
@@ -221,72 +227,53 @@ $paragraph_font:'Nova Mono', monospace;
   .ssend {
     font-size: 4rem;
   }
-  
 }
 
-@media only screen and (max-width:1920px) {
-  .ssend{
-      font-size: 4rem;
+@media only screen and (max-width: 1920px) {
+  .ssend {
+    font-size: 4rem;
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 @media only screen and (max-width: 800px) {
-  
   .letsstart {
     font-size: 3rem;
   }
 }
 
 @media only screen and (max-width: 740px) {
-  .message{
+  .message {
     flex-direction: column;
     height: 100vh;
-
   }
-  .message >.lspr{
+  .message > .lspr {
     width: 100%;
   }
-  .message >.lspr > .letsstart{
+  .message > .lspr > .letsstart {
     font-size: 30px;
     width: 90%;
-    
   }
-  #send_button{
+  #send_button {
     width: 30%;
   }
-  .message > .part2{
+  .message > .part2 {
     width: 100%;
   }
-  .copy{
+  .copy {
     font-size: 10px;
   }
-  .message .job  .photo{
+  .message .job .photo {
     width: 80%;
     background-color: #00a6ff;
   }
-  .message .job h2{
+  .message .job h2 {
     font-size: 30px;
   }
-  .message .job .ctaction{
+  .message .job .ctaction {
     justify-content: center;
   }
-  .Down{
-    
+  .Down {
     width: 18vh;
     font-size: 12px;
   }
-
-
 }
