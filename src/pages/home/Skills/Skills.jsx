@@ -132,8 +132,8 @@ const Homeskills = () => {
 
           <div className="projectview">
             <div className="skill_content">
-              <div className="pro_show pro_one">Coffe Website</div>
-              <div className="pro_show pro_two">Resturant Website</div>
+              <div className="pro_show pro_one" onClick={() => window.open('https://shardagarden.netlify.app','_blank')} >Gardening Website</div>
+              <div className="pro_show pro_two" onClick={() => window.open('https://resturantwe.netlify.app','_blank')}>Resturant Website</div>
               <div className="pro_show pro_three">Python automation</div>
               <div className="pro_show pro_four">ToGo</div>
             </div>
