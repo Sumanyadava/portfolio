@@ -25,8 +25,8 @@ const handleSubmit =(e) => {
   
   //create a new obj
   const templateParams = {
-    form_name: name,
-    form_email: email,
+    from_name: name,
+    from_email: email,
     to_name: 'Web Wiz',
     message: message
   }
