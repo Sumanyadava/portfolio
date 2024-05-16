@@ -134,7 +134,7 @@ const Homeskills = () => {
             <div className="skill_content">
               <div className="pro_show pro_one" onClick={() => window.open('https://shardagarden.netlify.app','_blank')} >Gardening Website</div>
               <div className="pro_show pro_two" onClick={() => window.open('https://resturantwe.netlify.app','_blank')}>Resturant Website</div>
-              <div className="pro_show pro_three">Python automation</div>
+              <div className="pro_show pro_three" onClick={() => window.open('https://www.linkedin.com/posts/suman-yadav-7a6115227_i-made-python-desktop-application-to-open-activity-7196542696918790144-bIJC/','_blank')} >Python automation</div>
               <div className="pro_show pro_four">ToGo</div>
             </div>
           </div>
